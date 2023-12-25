@@ -131,9 +131,6 @@ main{
     background: var(--Dark--Violet);
     position: relative;
     width: 100%;
-    /* max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px; */
     box-sizing: border-box;
 }
 
@@ -149,13 +146,16 @@ main{
 
 .main-section .text {
     width: 50%;
+    margin-left: 5rem;
 }
+
 
 .main-section .image {
     position: absolute;
     top: 160px;
     right: 0;
     width: 50%;
+    padding-left: 5rem;
 }
 
 .bottomleft {
@@ -186,4 +186,39 @@ main{
     z-index: 999;
     margin-right: 0px;
     translate: 20px 0px;
+}
+
+.spacer{
+    margin-top:9rem;
+    width: 20%;
+    height: 2px;
+    background:white;
+}
+.text h1{
+    margin-top: 2rem;
+    font-family: var(--ff-dmserif);
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--White);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.home-text {
+    width: 100%;
+    color: var(--Dark--Blue);
+    text-align: left;
+    font-size: 17px;
+    margin-bottom: 3rem;
+    padding-right: 6rem;
+}
+
+.invite-btn{
+    border: 2px solid var(--White);
+    color:var(--White);
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    
+
 }
