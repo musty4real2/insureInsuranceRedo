@@ -54,6 +54,7 @@
 body {
     font-family: var(--ff-Karla);
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 a {
@@ -71,14 +72,13 @@ a {
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 
 .logo {
     font-size: 1.8rem;
     color: rgb(5, 5, 116);
     padding-left: 20px;
-    margin-left: 100px;
 }
 
 .hamburger {
@@ -100,6 +100,7 @@ a {
     top: 5rem;
     left: 18px;
     background-color: var(--White);
+    z-index: 999;
 }
 
 .nav__link a {
@@ -121,55 +122,18 @@ a {
 }
 
 
-
 /* main */
-
-/* main {
-    margin-top: 1rem;
-    background: var(--Dark--Violet);
-    width: 100%;
-    overflow: hidden;
+main{
+    margin-top: 1.4rem;
 }
-
-
 .main-section {
+    
+    background: var(--Dark--Violet);
     position: relative;
     width: 100%;
-    height: 100vh;
-    max-width: 1200px;
+    /* max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 20px;
-    box-sizing: border-box;
-    background: var(--Dark--Violet);
-    color: var(--White);
-}
-
-.main-section .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.main-section .text {
-    width: 50%;
-}
-
-.main-section .image {
-    position: absolute;
-    top: 500;
-    right: 0;
-    margin-left: -600px;
-    width: 50%;
-    z-index: 3;
-} */
-
-
-.main-section {
-    position: relative;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
+    padding: 40px 20px; */
     box-sizing: border-box;
 }
 
@@ -189,11 +153,10 @@ a {
 
 .main-section .image {
     position: absolute;
-    top: 250px;
+    top: 160px;
     right: 0;
     width: 50%;
 }
-
 
 .bottomleft {
     position: absolute;
@@ -202,10 +165,10 @@ a {
     height: 65vh;
     background-repeat: no-repeat;
     bottom: 8px;
-    left: 0px;
+    left: -90px;
     font-size: 18px;
     color: red;
-    top: 498px;
+    top: 400px;
     z-index: 999;
 }
 
@@ -213,13 +176,14 @@ a {
     position: absolute;
     background-image: url(images/bg-pattern-intro-right-desktop.svg);
     background-repeat: no-repeat;
-    width: 30%;
-    height: 65vh;
+    width: 100%;
+    /* height: 65vh; */
     bottom: 8px;
-    right: 0px;
+    right: -65rem;
     font-size: 18px;
     color: red;
-    top: 90px;
+    top: 20px;
     z-index: 999;
     margin-right: 0px;
+    translate: 20px 0px;
 }
