@@ -372,6 +372,7 @@ footer {
 }
 
 .footer-row1 {
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -379,6 +380,7 @@ footer {
 }
 
 .logo img {
+    margin-left: 80px;
     max-width: 100px; /* Adjust the size of the logo */
 }
 
@@ -387,6 +389,7 @@ footer {
 }
 
 .footer-row2 {
+    margin-left: 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -404,6 +407,13 @@ footer {
 .column ul li a {
     text-decoration: none;
     color: #333;
+    font-family: var(--ff-Karla);
+    font-size: 14px;
+}
+
+.column ul li:first-child {
+    text-decoration: none;
+    color:var(--Dark--Grayish--Violet);
 }
 
 /* Styling for social icon images (adjust sizes if needed) */
