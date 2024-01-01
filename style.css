@@ -367,6 +367,10 @@ main{
 
 /* Footer Styles */
 footer {
+    background-image: url(./images/bg-pattern-footer-desktop.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    translate: 0 50px;
     background-color: #f5f5f5;
     padding: 20px;
 }
@@ -378,12 +382,26 @@ footer {
     align-items: center;
     margin-bottom: 20px;
 }
-
-.logo img {
-    margin-left: 80px;
-    max-width: 100px; /* Adjust the size of the logo */
+.footer-row1 .logo {
+    max-width: 160px; /* Adjust the size of the logo */
+    padding: 10px; 
+    /* background-image: url('./images/bg-pattern-intro-left-desktop.svg'); Replace with your pattern image */
+    /* background-repeat:no-repeat; Set the pattern to repeat */
+    /* background-position: left; */
+    /* height: 400px;
+    z-index: 999; */
 }
 
+.footer-row1 .logo img {
+    display: block;
+    margin-left: 80px;
+    width: 100%; /* Ensure the logo image fills the container */
+    height: auto;
+}
+/* .logo img {
+    margin-left: 80px;
+    max-width: 100px; 
+    /* Adjust the size of the logo */
 .social-icons a {
     margin-left: 10px; /* Adjust spacing between social icons */
 }
