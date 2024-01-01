@@ -302,7 +302,7 @@ main{
     flex-direction: row;
     justify-content: space-between;
     color: var(--White);
-    height: 200px;
+    height: 350px;
     width: 100%;
     background:var(--White);
 }
@@ -334,4 +334,80 @@ main{
     margin-left:auto;
     width: 20%;  
     margin-bottom: 200px;  
+}
+
+
+.main-section4 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+    background:var(--White);
+}
+
+
+.service-intro4{
+    width: 100%;
+    background: var(--Light--Grayish--Blue);
+}
+
+.bgdesign1{
+    background-image: url(./images/image-intro-desktop.jpg);
+    background-repeat: none;
+    top: 0;
+    left: 0;
+    width: 0%;
+    translate: 10px 200px;
+    background-color: red;   
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.footer-row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 100px; /* Adjust the size of the logo */
+}
+
+.social-icons a {
+    margin-left: 10px; /* Adjust spacing between social icons */
+}
+
+.footer-row2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 8px;
+}
+
+.column ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Styling for social icon images (adjust sizes if needed) */
+.social-icons a img {
+    width: 30px;
+    height: 30px;
 }
